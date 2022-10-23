@@ -10,18 +10,6 @@ class Sidebar {
   static init() {
     this.initAuthLinks();
     this.initToggleButton();
-  /**
- * Класс Sidebar отвечает за работу боковой колонки:
- * кнопки скрытия/показа колонки в мобильной версии сайта
- * и за кнопки меню
- * */
-class Sidebar {
-  /**
-   * Запускает initAuthLinks и initToggleButton
-   * */
-  static init() {
-    this.initAuthLinks();
-    this.initToggleButton();
   }
 
   /**
