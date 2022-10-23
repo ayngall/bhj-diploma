@@ -23,6 +23,12 @@
       "email": "gallyamov.ainyr@yandex.ru",
       "password": "22",
       "id": "1azqqz2o8l9lnrn5y"
+    },
+    {
+      "name": "Айнур2",
+      "email": "gallyamov.ainyr@yandex.ru2",
+      "password": "22e",
+      "id": "1azqqz1i8l9lo3x20"
     }
   ],
   "accounts": [
@@ -45,6 +51,11 @@
       "name": "Заначка",
       "user_id": "1",
       "id": "ndgqtv3xwl8ptvump"
+    },
+    {
+      "name": "w",
+      "user_id": "1azqqz1i8l9lo3x20",
+      "id": "1azqqzdf4l9lpifuj"
     }
   ],
   "transactions": [
