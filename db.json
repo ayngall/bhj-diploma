@@ -5,6 +5,18 @@
       "email": "demo@demo",
       "password": "demo",
       "id": "1"
+    },
+    {
+      "name": "user",
+      "email": "user@user",
+      "password": "user",
+      "id": "ndgqtvd3cl8gu7ybb"
+    },
+    {
+      "name": "Айнур",
+      "email": "ainyrgall117@gmail.com",
+      "password": "33",
+      "id": "1azqqz81wl9k9xdrq"
     }
   ],
   "accounts": [
@@ -22,6 +34,11 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "Заначка",
+      "user_id": "1",
+      "id": "ndgqtv3xwl8ptvump"
     }
   ],
   "transactions": [
@@ -159,6 +176,69 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "ndgqtvg4kl8lzlbub",
+      "type": "income",
+      "name": "Валюта",
+      "sum": 255,
+      "account_id": "3",
+      "user_id": "1",
+      "created_at": "2022-09-28T18:54:36.082Z"
+    },
+    {
+      "id": "ndgqtvcpgl8lzsefq",
+      "type": "income",
+      "name": "demo",
+      "sum": 700,
+      "account_id": "3",
+      "user_id": "1",
+      "created_at": "2022-09-28T19:00:06.037Z"
+    },
+    {
+      "id": "ndgqtv6j0l8n68gbz",
+      "type": "income",
+      "name": "demo",
+      "sum": 250,
+      "account_id": "3",
+      "user_id": "1",
+      "created_at": "2022-09-29T14:48:18.863Z"
+    },
+    {
+      "id": "ndgqtvdx0l8oqf9zg",
+      "type": "income",
+      "name": "Подарок",
+      "sum": 1500,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-09-30T17:01:15.723Z"
+    },
+    {
+      "id": "ndgqtv3xwl8ptw7gt",
+      "type": "income",
+      "name": "Принесли",
+      "sum": 500,
+      "account_id": "ndgqtv3xwl8ptvump",
+      "user_id": "1",
+      "created_at": "2022-10-01T11:26:10.637Z"
+    },
+    {
+      "id": "ndgqtviikl8pvhl82",
+      "type": "income",
+      "name": "Ещё принесли ",
+      "sum": 1500,
+      "account_id": "ndgqtv3xwl8ptvump",
+      "user_id": "1",
+      "created_at": "2022-10-01T12:10:47.857Z"
+    },
+    {
+      "id": "ndgqtviikl8pvie7u",
+      "type": "expense",
+      "name": "Отнёс",
+      "sum": 500,
+      "account_id": "ndgqtv3xwl8ptvump",
+      "user_id": "1",
+      "created_at": "2022-10-01T12:11:25.434Z"
     }
   ]
 }
