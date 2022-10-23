@@ -1,15 +1,21 @@
 /**
- * Класс LoginForm управляет формой
- * входа в портал
+ * Класс RegisterForm управляет формой
+ * регистрации
  * */
-class LoginForm extends AsyncForm {
+class RegisterForm extends AsyncForm {
   /**
-   * Производит авторизацию с помощью User.login
-   * После успешной авторизации, сбрасывает форму,
-   * устанавливает состояние App.setState( 'user-logged' ) и
-   * закрывает окно, в котором находится форма
+   * Производит регистрацию с помощью User.register
+   * После успешной регистрации устанавливает
+   * состояние App.setState( 'user-logged' )
+   * и закрывает окно, в котором находится форма
    * */
   onSubmit(data) {
-
+    User.register(data, (err, response) => {
+      if (response && response.user) {
+        this.element.reset();
+        App.setState('user-logged');
+        App.getModal('register').close();
+      };
+    })
   }
 }
